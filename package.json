@@ -1,13 +1,9 @@
 {
   "name": "faker-js-playground",
-  "version": "1.0.0",
-  "description": "Faker.js playground and examples",
   "type": "module",
   "scripts": {
-    "generate:users": "node generate-users.js"
+    "gen:users": "node generators/users.js"
   },
-  "author": "Michal Gasparik",
-  "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^8.0.2"
   }
